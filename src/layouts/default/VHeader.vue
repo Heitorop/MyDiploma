@@ -1,13 +1,12 @@
 <template>
-  <v-app-bar flat>
+  <v-app-bar :elevation="5">
     <v-app-bar-title>
-      <v-icon icon="mdi-circle-slice-6" />
+      SecureAudit
 
-      Essentials Preset
     </v-app-bar-title>
   </v-app-bar>
 </template>
 
 <script lang="ts" setup>
-  //
+//
 </script>

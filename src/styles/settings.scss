@@ -1,10 +1,25 @@
-/**
- * src/styles/settings.scss
- *
- * Configures SASS variables and Vuetify overwrites
- */
+#app {
+  display: flex;
+  justify-content: center;
+}
+.v-application {
+  max-width: 1080px;
+  width: 100%;
 
-// https://vuetifyjs.com/features/sass-variables/`
-// @use 'vuetify/settings' with (
-//   $color-pack: false
-// );
+  &__wrap {
+    header {
+      position: sticky !important;
+      margin-top: 10px;
+      padding: 16px;
+      border-radius: 8px;
+
+      .v-toolbar-title {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.v-main {
+  padding-top: 0;
+}
