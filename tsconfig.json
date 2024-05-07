@@ -17,6 +17,7 @@
       "node",
       "vuetify"
     ],
+    "skipLibCheck": true,
     "paths": {
       "@/*": ["src/*"]
     },
