@@ -15,8 +15,8 @@
     "lib": ["esnext", "dom"],
     "types": [
       "node",
+      "vuetify"
     ],
-    "skipLibCheck": true,
     "paths": {
       "@/*": ["src/*"]
     },
